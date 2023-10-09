@@ -2,5 +2,6 @@
 #define TBOOK_H
 
 #include <string>
+class TBook {};
 
 #endif
