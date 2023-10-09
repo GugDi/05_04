@@ -7,3 +7,7 @@ TBook::TBook(std::string title, std::string author, int year) {
     m_author = author;
     m_year = year;
 }
+
+std::string TBook::getTitle() {
+    return m_title;
+}
